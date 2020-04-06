@@ -15,5 +15,5 @@
 3. Restart Photoshop (if it's open)
 
 ### Note
-I do not claim no ownership of these script/assets. They belong to Adobe. These files are supposed to be installed by default.
+I do not claim any ownership of these scripts/assets. They belong to Adobe. These files are supposed to be installed by default.
 
