@@ -50,5 +50,5 @@ You can enable/disable the script by showing/hiding the layer.
 ## Creating a timelapse
 The best way to create a timelapse is to import the images folder into your favourite video editing software, and exporting a video slideshow.
 
-## I need help!
-Send me a message on twitter @peteavi
+## For questions/troubleshooting/bugs etc
+Send me a message on twitter [@peteavi](https://twitter.com/peteavi)
