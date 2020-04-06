@@ -1,12 +1,11 @@
 # imageOnSave
 
-imageOnSave is a Photoshop script that will save an image of the active .psd to a folder everytime it's saved. You can then assemble these images into a timelapse progress gif or video\*. 
+imageOnSave is a Photoshop script that will save an .jpg (quality 12) of the active .psd to a folder everytime it's saved. You can then assemble these images into a timelapse progress gif or video\*. 
 
 When you save the script will create a folder in the same directory as the file you're saving. For example: 
 ```
 mypainting.psd will save an image as <folder mypainting.psd is saved in>/mypainting-imageOnSave/mypainting-123456789.png
 ```
-RGB colour mode will save a .png, any other mode will save a .jpg (quality 12)
   
 \**Assembling gifs/videos is not a feature of the script, but instructions for how to do so are below.*
 
@@ -26,10 +25,10 @@ Check if "Script Events Manager.jsx" exists. If it doesn't, go [here](https://gi
 ```
 <Photoshop install location>/Presets/Scripts/Event Scripts Only
 ```
-**If you photoshop directory is on your c:/ drive, you may have to save the file somewhere else (ie: /downloads), then copy/paste it into the above directory.**
+**If your photoshop directory is on your c:/ drive, you may have to save the file somewhere else (ie: /Downloads), then copy/paste it into the above directory.**
 * The script is now installed! Nice work.
 
-## Using the script
+## Installing the script in Photoshop
 * Open Photoshop
 * Navigate to File->Scripts->Script Events Manager... to open the Events Manager
 
@@ -37,11 +36,18 @@ Check if "Script Events Manager.jsx" exists. If it doesn't, go [here](https://gi
 * Next follow the directions below
 
 ![Step two](https://github.com/PizzaBox/imageOnSave/blob/master/assets/usage/usage-02.png)
-1. Enable the events manager. You can use this to enable and disable the script. Disabling will disable ALL scripts from running. If you have other scripts, you will have to manually remove/add this script when needed.
+1. Enable the events manager. You can use this to enable and disable the script. Disabling will disable ALL scripts listed below from running.
 2. Set "Photoshop event" to "Save Document"
-3. Set the script to "imageOnSave-v\[...\]"
+3. Set the script to "imageOnSave-v\[version\]"
 4. Click the add button to add the script to the active list
 5. Click Done. Boom, you're done. The script is ready to be used.
+
+## Using the script
+To enable imageOnSave, create a empty layer called (capitalization doesn't matter):
+```
+imageonsave
+```
+You can enable/disable the capturing by showing/hiding the layer.
 
 ## Creating a timelapse
 todo
