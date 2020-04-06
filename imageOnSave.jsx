@@ -53,3 +53,4 @@ function showAlert(message, showError){
     showError = false
   }
   alert(message, 'imageOnSave', showError)
+}
