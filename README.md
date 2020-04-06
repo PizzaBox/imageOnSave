@@ -8,7 +8,7 @@ mypainting.psd will save an image as <folder mypainting.psd is saved in>/mypaint
 ```
 RGB colour mode will save a .png, any other mode will save a .jpg (quality 12)
   
-\*Note: Assembling gifs/videos is not a feature of the script, but instructions for how to do so are below.
+\**Assembling gifs/videos is not a feature of the script, but instructions for how to do so are below.*
 
 ## Installation
 
@@ -20,9 +20,9 @@ C:/Program Files/Adobe/Adobe Photoshop <version>
 ```
 <Photoshop install location>/Presets/Scripts
 ```
-If "Script Events Manager.jsx" doesn't exist, go [here](), and install it before proceeding
+Check if "Script Events Manager.jsx" exist. If it doesn't, go [here](), and install it before proceeding
 
-* Download the [latest version of the script (right click - Save Link As)](https://github.com/PizzaBox/imageOnSave/blob/master/imageOnSave.js) and save it to:
+* Download the [latest version of imageOnSave.jsx (right click - Save Link As)](https://github.com/PizzaBox/imageOnSave/blob/master/imageOnSave.js) and save it to:
 ```
 <Photoshop install location>/Presets/Scripts/Event Scripts Only
 ```
