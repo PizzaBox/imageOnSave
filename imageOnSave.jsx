@@ -16,10 +16,10 @@ try {
     } else {
       var savePath = saveFolderPath + '/' + documentName + '-' + String(Date.now()) + '.jpg'
       try {
-    		activeDocument.saveAs(new File(savePath), new JPEGSaveOptions({ quality: 12 }), true, Extension.LOWERCASE) 
-  		} catch (e) {
-    		showAlert('Failed to save image', true)
-  		}
+        activeDocument.saveAs(new File(savePath), new JPEGSaveOptions({ quality: 12 }), true, Extension.LOWERCASE) 
+      } catch (e) {
+        showAlert('Failed to save image', true)
+      }
     }
   } 
 } catch (e) {
@@ -27,14 +27,14 @@ try {
 }
 
 function hasActivationLayer(doc) {
-	var layers = doc.layers
-	for (var i=0;i<layers.length;i++){	
-		var layer = layers[i]
-		if (layer.name.toLowerCase() == 'imageonsave' && layer.visible == true) {
-			return true
-		}
-	}
-	return false
+  var layers = doc.layers
+  for (var i=0;i<layers.length;i++){  
+    var layer = layers[i]
+    if (layer.name.toLowerCase() == 'imageonsave' && layer.visible == true) {
+      return true
+    }
+  }
+  return false
 }
 
 function createOutputFolder(path) {
