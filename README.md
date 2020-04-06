@@ -17,13 +17,13 @@ C:/Program Files/Adobe/Adobe Photoshop <version>
 ```
 <Photoshop install location>/Presets/Scripts
 ```
-Check if "Script Events Manager.jsx" exists. If it doesn't, go [here](https://github.com/PizzaBox/imageOnSave/tree/master/Adobe), and install it before proceeding
+* Check if "Script Events Manager.jsx" exists. If it doesn't, go [here](https://github.com/PizzaBox/imageOnSave/tree/master/Adobe), and install it before proceeding
 
 * Download the [latest version of imageOnSave.jsx (right click - Save Link As)](https://raw.githubusercontent.com/PizzaBox/imageOnSave/master/imageOnSave.jsx) and save it to:
 ```
 <Photoshop install location>/Presets/Scripts/Event Scripts Only
 ```
-**If your photoshop directory is on your c:/ drive, you may have to save the file somewhere else (ie: /Downloads), then copy/paste it into the above directory.**
+**If your photoshop directory is on your c:/ drive, you may have to save the file somewhere else (ie: /Downloads), then copy/paste it into the above directory. You may also have to give Windows permission to copy the file to the above directory.**
 * The script is now installed! Nice work.
 
 ## Adding the script to Photoshop
@@ -37,8 +37,8 @@ Check if "Script Events Manager.jsx" exists. If it doesn't, go [here](https://gi
 1. Enable the events manager. You can use this to enable and disable the script. Disabling will disable ALL scripts listed below from running.
 2. Set "Photoshop event" to "Save Document"
 3. Set the script to "imageOnSave-v\[version\]"
-4. Click the add button to add the script to the active list
-5. **Important** Click Done. Boom, you're done. The script is ready to be used.
+4. **Important** Click the add button to add the script to the active events list
+5. Click Done. The script is ready to be used. 🎂
 
 ## Using the script
 To enable imageOnSave, create a empty layer called (capitalization doesn't matter):
