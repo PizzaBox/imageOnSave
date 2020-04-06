@@ -44,3 +44,5 @@ Check if "Script Events Manager.jsx" exist. If it doesn't, go [here](), and inst
 4. Click the add button to add the script
 5. Click Done. Boom, you're done. The script is ready to be used.
 
+##Creating a timelapse
+todo
