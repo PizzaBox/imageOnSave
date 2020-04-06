@@ -26,7 +26,7 @@ Check if "Script Events Manager.jsx" exists. If it doesn't, go [here](https://gi
 **If your photoshop directory is on your c:/ drive, you may have to save the file somewhere else (ie: /Downloads), then copy/paste it into the above directory.**
 * The script is now installed! Nice work.
 
-## Installing the script in Photoshop
+## Adding the script to Photoshop
 * Open Photoshop
 * Navigate to File->Scripts->Script Events Manager... to open the Events Manager
 
@@ -38,7 +38,7 @@ Check if "Script Events Manager.jsx" exists. If it doesn't, go [here](https://gi
 2. Set "Photoshop event" to "Save Document"
 3. Set the script to "imageOnSave-v\[version\]"
 4. Click the add button to add the script to the active list
-5. Click Done. Boom, you're done. The script is ready to be used.
+5. **Important** Click Done. Boom, you're done. The script is ready to be used.
 
 ## Using the script
 To enable imageOnSave, create a empty layer called (capitalization doesn't matter):
