@@ -18,8 +18,10 @@ C:/Program Files/Adobe/Adobe Photoshop
 ## Using the script
 * Open Photoshop
 * Navigate to File/Scripts/Script Events Manager... to open the Events Manager
+
 ![Step one](https://github.com/PizzaBox/imageOnSave/blob/master/assets/usage/usage-01.png)
 * Next follow the directions below
+
 ![Step two](https://github.com/PizzaBox/imageOnSave/blob/master/assets/usage/usage-02.png)
 1. Enable the events manager. You can use this to enable and disable the script. Disabling will disable ALL scripts from running. If you have other scripts, you will have to manually remove/add this script when needed.
 2. Set "Photoshop event" to "Save Document"
