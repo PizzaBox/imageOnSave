@@ -1,8 +1,8 @@
 # imageOnSave
 
-imageOnSave is a Photoshop script that will save an .jpg (quality 12) of the active document to a folder every time it's saved. You can then assemble these images into a timelapse progress gif or video. 
+imageOnSave is a Photoshop script that will save a .jpg (quality 12) of the active document to a folder every time it's saved. You can then assemble these images into a timelapse progress gif or video. 
 
-When you save the script will create a folder in the same directory as the file you're saving. For example: 
+When you save, the script will save an image to a folder in the same directory as the active document you saved. For example: 
 ```
 mypainting.psd will save an image as <folder mypainting.psd is saved in>/mypainting-imageOnSave/mypainting-123456789.png
 ```
@@ -49,3 +49,6 @@ You can enable/disable the script by showing/hiding the layer.
 
 ## Creating a timelapse
 The best way to create a timelapse is to import the images folder into your favourite video editing software, and exporting a video slideshow.
+
+## I need help!
+Send me a message on twitter @peteavi
