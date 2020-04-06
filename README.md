@@ -1,12 +1,14 @@
 # imageOnSave
 
-imageOnSave is a Photoshop script that will save an image of the active .psd to a folder everytime it's saved. You can then assemble these images into a timelapse progress gif or video. 
+imageOnSave is a Photoshop script that will save an image of the active .psd to a folder everytime it's saved. You can then assemble these images into a timelapse progress gif or video\*. 
 
-When you save the script will create a folder in the same directory as the file you're saving called <.psd file name>-imageOnSave, and will save images to said folder using this format <psd file name>-<timestamp>.<image format>. For example" 
+When you save the script will create a folder in the same directory as the file you're saving. For example: 
 ```
-mypainting.psd will save an image as ./mypainting-imageOnSave/mypainting-123456789.png
+mypainting.psd will save an image as <folder mypainting.psd is saved in>/mypainting-imageOnSave/mypainting-123456789.png
 ```
-Note: Assembling gifs/videos is not a feature of the script, but instructions for how to do so are below.
+RGB colour mode will save a .png, any other mode will save a .jpg (quality 12)
+  
+\*Note: Assembling gifs/videos is not a feature of the script, but instructions for how to do so are below.
 
 ## Installation
 
