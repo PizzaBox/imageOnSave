@@ -8,16 +8,13 @@ var begName = "$$$/JavaScripts/imageOnSave/MenuName=imageOnSave-v1.1.0" // endNa
 try {
   var activeDocument = app.activeDocument
   var documentName = activeDocument.name
-
   if (hasActivationLayer(activeDocument) == true) {
-    var fileName = documentName.substr(0, documentName.lastIndexOf('.')) || documentName
-    var saveFolder = activeDocument.path + '/' + fileName + '-imageOnSave'
-
-    var createdOutputFolder = createOutputFolder(saveFolder)
-    if (createdOutputFolder == false) {
+    var saveFolder = activeDocument.path + '/' + documentName + '-imageOnSave'
+    
+    if (createOutputFolder(saveFolder) == false) {
       showAlert('Failed to create output folder. Image was not saved.', true)
     } else {
-      var savePath = saveFolder + '/' + fileName + '-' + String(Date.now()) + '.jpg'
+      var savePath = saveFolder + '/' + documentName + '-' + String(Date.now()) + '.jpg'
       try {
     		activeDocument.saveAs(new File(savePath), new JPEGSaveOptions({ quality: 12 }), true, Extension.LOWERCASE) 
   		} catch (e) {
