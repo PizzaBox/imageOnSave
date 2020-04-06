@@ -54,4 +54,3 @@ function showAlert(message, showError){
   }
   alert(message, 'imageOnSave', showError)
 }
-
