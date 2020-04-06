@@ -22,7 +22,7 @@ C:/Program Files/Adobe/Adobe Photoshop <version>
 ```
 Check if "Script Events Manager.jsx" exists. If it doesn't, go [here](https://github.com/PizzaBox/imageOnSave/tree/master/Adobe), and install it before proceeding
 
-* Download the [latest version of imageOnSave.js (right click - Save Link As)](https://raw.githubusercontent.com/PizzaBox/imageOnSave/master/imageOnSave.js) and save it to:
+* Download the [latest version of imageOnSave.jsx (right click - Save Link As)](https://raw.githubusercontent.com/PizzaBox/imageOnSave/master/imageOnSave.jsx) and save it to:
 ```
 <Photoshop install location>/Presets/Scripts/Event Scripts Only
 ```
