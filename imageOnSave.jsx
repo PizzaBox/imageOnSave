@@ -9,12 +9,12 @@ try {
   var activeDocument = app.activeDocument
   var documentName = activeDocument.name
   if (hasActivationLayer(activeDocument) == true) {
-    var saveFolder = activeDocument.path + '/' + documentName + '-imageOnSave'
-    
-    if (createOutputFolder(saveFolder) == false) {
+    var saveFolderPath = activeDocument.path + '/' + documentName + '-imageOnSave'
+  
+    if (createOutputFolder(saveFolderPath) == false) {
       showAlert('Failed to create output folder. Image was not saved.', true)
     } else {
-      var savePath = saveFolder + '/' + documentName + '-' + String(Date.now()) + '.jpg'
+      var savePath = saveFolderPath + '/' + documentName + '-' + String(Date.now()) + '.jpg'
       try {
     		activeDocument.saveAs(new File(savePath), new JPEGSaveOptions({ quality: 12 }), true, Extension.LOWERCASE) 
   		} catch (e) {
@@ -37,8 +37,8 @@ function hasActivationLayer(doc) {
 	return false
 }
 
-function createOutputFolder(saveFolder) {
-  var outputFolder = new Folder(saveFolder)
+function createOutputFolder(path) {
+  var outputFolder = new Folder(path)
   if (outputFolder.exists == false) {
     var created = outputFolder.create()
     if (created == false) {
