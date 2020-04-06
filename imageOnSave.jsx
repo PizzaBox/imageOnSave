@@ -1,9 +1,9 @@
 /*
-@@@BUILDINFO@@@ imageOnSave.jsx 1.2.0
+@@@BUILDINFO@@@ imageOnSave.jsx 1.2.1
 */
 
 var begDesc = "$$$/JavaScripts/imageOnSave/Description=Saves an .jpg of the saved document to a folder in the same directory. This will only trigger when a layer named \"imageonsave\" is present, and is visible." // endDesc
-var begName = "$$$/JavaScripts/imageOnSave/MenuName=imageOnSave-v1.2.0" // endName
+var begName = "$$$/JavaScripts/imageOnSave/MenuName=imageOnSave-v1.2.1" // endName
 
 try {
   var activeDocument = app.activeDocument
