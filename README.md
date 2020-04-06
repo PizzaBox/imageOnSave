@@ -1,23 +1,36 @@
-# ImageOnSave
+# imageOnSave
 
-imageOnSave is a Photoshop script that will save an image of the active .psd to a folder everytime it's saved. You can then assemble these images into a timelapse progress gif or video. FYI, assembling is not a feature of the script, but instructions for how to do so are below.
+imageOnSave is a Photoshop script that will save an image of the active .psd to a folder everytime it's saved. You can then assemble these images into a timelapse progress gif or video. 
+
+When you save the script will create a folder in the same directory as the file you're saving called <.psd file name>-imageOnSave, and will save images to said folder using this format <psd file name>-<timestamp>.<image format>. For example" 
+```
+mypainting.psd will save an image as ./mypainting-imageOnSave/mypainting-123456789.png
+```
+Note: Assembling gifs/videos is not a feature of the script, but instructions for how to do so are below.
 
 ## Installation
 
-* Locate your Photoshop install location. It's usually located at:
+* Locate your Photoshop install directory. It's usually located in:
 ```
-C:/Program Files/Adobe/Adobe Photoshop
+C:/Program Files/Adobe/Adobe Photoshop <version>
 ```
+* Navigate to 
+```
+<Photoshop install location>/Presets/Scripts
+```
+If "Script Events Manager.jsx" doesn't exist, go [here](), and install it before proceeding
+
 * Download the [latest version of the script (right click - Save Link As)](https://github.com/PizzaBox/imageOnSave/blob/master/imageOnSave.js) and save it to:
 ```
 <Photoshop install location>/Presets/Scripts/Event Scripts Only
 ```
-**If you photoshop directory is on your c:/, you may have to grant Windows permissions to move the script**
-* The script is now installed!.
+
+**If you photoshop directory is on your c:/ drive, you may have to grant Windows permissions to save the script**
+* The script is now installed! Nice work.
 
 ## Using the script
 * Open Photoshop
-* Navigate to File/Scripts/Script Events Manager... to open the Events Manager
+* Navigate to File->Scripts->Script Events Manager... to open the Events Manager
 
 ![Step one](https://github.com/PizzaBox/imageOnSave/blob/master/assets/usage/usage-01.png)
 * Next follow the directions below
