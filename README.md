@@ -20,13 +20,12 @@ C:/Program Files/Adobe/Adobe Photoshop <version>
 ```
 <Photoshop install location>/Presets/Scripts
 ```
-Check if "Script Events Manager.jsx" exist. If it doesn't, go [here](), and install it before proceeding
+Check if "Script Events Manager.jsx" exists. If it doesn't, go [here](https://github.com/PizzaBox/imageOnSave/tree/master/Adobe), and install it before proceeding
 
 * Download the [latest version of imageOnSave.jsx (right click - Save Link As)](https://github.com/PizzaBox/imageOnSave/blob/master/imageOnSave.js) and save it to:
 ```
 <Photoshop install location>/Presets/Scripts/Event Scripts Only
 ```
-
 **If you photoshop directory is on your c:/ drive, you may have to grant Windows permissions to save the script**
 * The script is now installed! Nice work.
 
@@ -40,8 +39,8 @@ Check if "Script Events Manager.jsx" exist. If it doesn't, go [here](), and inst
 ![Step two](https://github.com/PizzaBox/imageOnSave/blob/master/assets/usage/usage-02.png)
 1. Enable the events manager. You can use this to enable and disable the script. Disabling will disable ALL scripts from running. If you have other scripts, you will have to manually remove/add this script when needed.
 2. Set "Photoshop event" to "Save Document"
-3. Set the script to "imageOnSave-v..."
-4. Click the add button to add the script
+3. Set the script to "imageOnSave-v\[...\]"
+4. Click the add button to add the script to the active list
 5. Click Done. Boom, you're done. The script is ready to be used.
 
 ## Creating a timelapse
