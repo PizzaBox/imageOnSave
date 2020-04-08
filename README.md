@@ -6,10 +6,10 @@ When you save, the script will save an image to a folder in the same directory a
 ```
 mypainting.psd will save an image as <folder mypainting.psd is saved in>/mypainting-imageOnSave/mypainting-123456789.png
 ```
-## Requirements
+## Photoshop versions
 * Photoshop CC 2019 or higher.
 
-The script was developed/tested using Photoshop CC 2019, and should work with all versions of Photoshop CC. If you have issues with your version, please let me know.
+The script was developed using [Photoshop CC 2019 Scripting Guidelines](https://www.adobe.com/devnet/photoshop/scripting.html), and was tested using CC 2019. It should work with newer versions of Photoshop CC. It may work with older versions of CC as well. If you're using a version that isn't listed above, please let me know so I can add it to the list above.
 
 ## Installation
 
