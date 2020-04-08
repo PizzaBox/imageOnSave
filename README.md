@@ -6,6 +6,10 @@ When you save, the script will save an image to a folder in the same directory a
 ```
 mypainting.psd will save an image as <folder mypainting.psd is saved in>/mypainting-imageOnSave/mypainting-123456789.png
 ```
+## Requirements
+* Photoshop CC 2019 or higher.
+
+The script was developed/tested using Photoshop CC 2019, and should work with all versions of Photoshop CC. If you have issues with your version, please let me know.
 
 ## Installation
 
@@ -41,11 +45,11 @@ C:/Program Files/Adobe/Adobe Photoshop <version>
 5. Click Done. The script is ready to be used. 🎂
 
 ## Using the script
-To enable imageOnSave, create a empty layer called (capitalization doesn't matter):
+To enable imageOnSave, create a layer called:
 ```
 imageonsave
 ```
-You can enable/disable the script by showing/hiding the layer.
+You can toggle image saving by toggling the "imageonsave" layer visibility. Visible = enabled, hidden = disabled.
 
 ## Creating a timelapse
 The best way to create a timelapse is to import the images folder into your favourite video editing software, and exporting a video slideshow.
